@@ -1,0 +1,37 @@
+<style>
+h1 {
+font-family: cursive;
+}
+
+div{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: black;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid black;
+	display: table-cell;
+	padding: 3px 10px;
+  width: 50px;
+  height: 100px;
+}
+.divTableHeading {
+	background-color: black;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: black;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+</style>
